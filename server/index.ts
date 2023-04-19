@@ -27,3 +27,8 @@ const port = process.env.PORT || 19212
 app.listen(port, () => {
     console.log(`Server started on port ${port}`)
 })
+.env：
+
+TENCENT_SECRET_ID = "AKIDWr8RjqPp1zwkIbmpodHl2715Z1Tdt0xi"
+TENCENT_SECRET_KEY = "pcFhz6zf7MM7ey4wb3GExZBoJcnptttp"
+npm run serve
